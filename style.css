@@ -1,21 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
-    font-family: 'Overpass', sans-serif;
-    font-size: 16px;
-    }
-
-.navbar {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, hsl(13, 100%, 72%) 0%, hsl(353, 100%, 62%) 35%);
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+}
+h2 {
+  font-size: 1.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
 }
 .hero-section {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, hsl(13, 100%, 72%) 0%, hsl(353, 100%, 62%) 35%);
+  background-image: url(./images/bg-pattern-intro-desktop.svg),
+    linear-gradient(180deg, hsl(13, 100%, 72%) 0%, hsl(353, 100%, 62%) 35%);
+  background-position: center;
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+  padding: 3%;
+  border-bottom-left-radius: 10%;
+}
+.hero {
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+.heading {
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+.main-text {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Overpass", sans-serif;
+  color: hsl(240, 2%, 79%);
+}
+.section {
+  margin: 0;
+  padding: 3%;
 }
 .btn {
-    font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: hsl(356, 100%, 66%);
+}
+.btn-light:hover {
+  background-color: hsl(355, 100%, 74%);
+  border: hsl(355, 100%, 74%);
+  color: hsl(0, 0%, 100%);
+}
+.btn-outline-secondary {
+  border: solid 1px hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+}
+.btn-outline-secondary:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(356, 100%, 66%);
+}
+.state-of-art {
+  background-image: url(./images/bg-pattern-circles.svg),
+    linear-gradient(90deg, hsl(237, 17%, 21%) 0%, hsl(237, 23%, 32%) 35%);
+  color: hsl(0, 0%, 100%);
+  background-position: bottom;
+  border-radius: 0 15%;
+  margin: 35% 0 20% 0;
+}
+.phones-image {
+  margin-top: -50%;
+}
+.footer {
+  background-color: hsl(240, 10%, 16%);
+  color: hsl(0, 0%, 100%);
+  border-top-right-radius: 10%;
+}
+.footer-text {
+  color: hsl(240, 2%, 79%);
+}
+.editor-image {
+  width: 50%;
+}
+.nav-link:hover {
+  color: hsl(240, 2%, 79%);
+  text-decoration: underline;
 }
 
-.state-of-art {
-    background: linear-gradient(90deg, hsl(237, 17%, 21%) 0%, hsl(237, 23%, 32%) 35%);
+@media screen and (min-width: 768px) {
+  .state-of-art {
+    margin: 40px 0;
+    height: 40vh;
+    padding: 0;
+  }
+  .phones-image {
+    margin-top: -80px;
+  }
+  .full-width-right {
+    left: 50%;
+    margin-left: -5vw;
+    margin-right: -5vw;
+    max-width: 50vw;
+    position: relative;
+    right: 50%;
+    width: 50vw;
+  }
+  .full-width-left {
+    margin-left: -5vw;
+    margin-right: -5vw;
+    max-width: 50vw;
+    position: relative;
+    right: 60%;
+    width: 50vw;
+  }
 }
