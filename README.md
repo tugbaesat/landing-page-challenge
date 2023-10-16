@@ -19,10 +19,10 @@ Design preview for the Blogr landing page coding challenge:
 ## Screenshots: 📷
 
 ### Main Page
-![image](https://github.com/tugbaesat/clipboard-landing-page-challenge/assets/114342008/998cd559-446b-4485-ace5-2b780e2dd5e3)
-![image](https://github.com/tugbaesat/clipboard-landing-page-challenge/assets/114342008/0aa3113d-2604-4a9a-8778-f26c4d312442)
-![image](https://github.com/tugbaesat/clipboard-landing-page-challenge/assets/114342008/05804b2b-4ebf-45d4-a542-8774620eb594)
-![image](https://github.com/tugbaesat/clipboard-landing-page-challenge/assets/114342008/c75ad77b-2e47-4101-a202-d3e664b83aa6)
+![image](https://github.com/tugbaesat/landing-page-challenge/assets/114342008/8d3c4524-e7e6-47dd-a829-57c994ae204d)
+![image](https://github.com/tugbaesat/landing-page-challenge/assets/114342008/6b1e6dd2-e314-4037-b909-2b4e933a46c7)
+![image](https://github.com/tugbaesat/landing-page-challenge/assets/114342008/379a08e5-cab4-4f0f-848c-f238fc15a1f2)
+![image](https://github.com/tugbaesat/landing-page-challenge/assets/114342008/bcd13c54-ba64-429d-b3f7-a08a9c9ce006)
 
 
 ## Authors: 💻
