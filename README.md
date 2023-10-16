@@ -8,7 +8,7 @@ Design preview for the Blogr landing page coding challenge:
 
 ## Live Demo of the Project: 📹
 
-[Clipboard Landing Page](https://clipboard-landing-page-challenge.vercel.app)
+[Blogr Landing Page](https://blogr-landing-page-tugbaesat.vercel.app)
 
 ## Technologies, Frameworks and Libraries: ☕️ 🐍 ⚛️
 - HTML
